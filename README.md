@@ -1,2 +1,2 @@
 # Restaurant_recommender
-In this project, i researched, brainstormde, and built a basic recommendation program that recommened restaurants.
+In this project, i researched, barnstormed, and built a basic recommendation program that recommened restaurant to users.
