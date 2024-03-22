@@ -17,20 +17,22 @@ if page.status_code != 200:
 
 soup = BeautifulSoup(page.content, 'html.parser')
 
-results = soup.find_all(class_ = 'woofoo-title')
+results = soup.find_all( class_ = 'woofoo-title')
 
 menu_items = []
 
-for result in results:
-    menu_item = result.find('h2', class_ = 'woofoo-title')
-    if menu_item:
-        menu_items.append(menu_item.text.strip())
+print(results)
 
-if menu_items:
-    for idx, menu_itm in enumertate(menu_items, start = 1):
-        print(f'{idx}. {menu_itm}')
-else:
-    print('No results found')
+# for result in results:
+#     menu_item = result.find('h2')
+#     if menu_item:
+#         menu_items.append(menu_item.text.strip())
+
+# if menu_items:
+#     for idx, menu_itm in enumerate(menu_items, start = 1):
+#         print(f'{idx}. {menu_itm}')
+# else:
+#     print('No results found')
 
 #if results is not None:
 #    print(results.prettify())
