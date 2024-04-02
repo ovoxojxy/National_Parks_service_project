@@ -1,7 +1,4 @@
-import json
-
-# Define restaurant data
-restaurant_data = [
+[
     {
         "name": "16th Avenue Diner",
         "cuisine": "American",
@@ -12,32 +9,39 @@ restaurant_data = [
         "ratings": 4.5
     },
     {
-        "name": "4 Rivers Smokehouse – Gainesville",
+        "name": "4 Rivers Smokehouse \u2013 Gainesville",
         "cuisine": "Barbecue",
         "location": "3262 sw 35th blvd, Gainesville",
         "distance": "",
         "price_range": "$$",
-        "dietary_options": ["Vegan","Vegetarian"],
+        "dietary_options": [
+            "Vegan",
+            "Vegetarian"
+        ],
         "dress_code": "Casual Dress",
         "ratings": 4.2
     },
     {
-        "name": "43rd St Deli & Breakfast – South",
+        "name": "43rd St Deli & Breakfast \u2013 South",
         "cuisine": "American",
         "location": "3483 SW Williston Rd., Gainesville",
         "distance": "",
         "price_range": "$",
-        "dietary_options": ["Vegetarian"],
+        "dietary_options": [
+            "Vegetarian"
+        ],
         "dress_code": "Casual",
         "ratings": 4.5
     },
     {
-        "name": "43rd St Deli & Breakfast – West",
+        "name": "43rd St Deli & Breakfast \u2013 West",
         "cuisine": "American",
         "location": "4410 NW 25th Pl, Gainesville",
         "distance": "",
         "price_range": "$",
-        "dietary_options": ["Vegetarian"],
+        "dietary_options": [
+            "Vegetarian"
+        ],
         "dress_code": "Casual",
         "ratings": 4.5
     },
@@ -47,27 +51,33 @@ restaurant_data = [
         "location": "409 SW 4th Ave, Gainesville",
         "distance": "",
         "price_range": "$",
-        "dietary_options": ["Vegetarian"],
+        "dietary_options": [
+            "Vegetarian"
+        ],
         "dress_code": "Casual",
         "ratings": 4.7
     },
     {
-        "name": "A’xin Mahzu Sushi & Grill",
+        "name": "A\u2019xin Mahzu Sushi & Grill",
         "cuisine": "Sushi",
         "location": "5150 SW 34th St, Gainesville",
         "distance": "",
         "price_range": "$",
-        "dietary_options": ["Vegetarian"],
+        "dietary_options": [
+            "Vegetarian"
+        ],
         "dress_code": "Casual",
         "ratings": 4.6
     },
     {
-        "name": "Adam’s Rib Co. North",
+        "name": "Adam\u2019s Rib Co. North",
         "cuisine": "Barbecue",
         "location": "2109 NW 13th St, Gainesville",
         "distance": "",
         "price_range": "$",
-        "dietary_options": ["Vegetarian"],
+        "dietary_options": [
+            "Vegetarian"
+        ],
         "dress_code": "Casual",
         "ratings": 4.5
     },
@@ -77,12 +87,14 @@ restaurant_data = [
         "location": "231 NW 10th ave, Gainesville",
         "distance": "",
         "price_range": "$$",
-        "dietary_options": ["Vegetarian"],
+        "dietary_options": [
+            "Vegetarian"
+        ],
         "dress_code": "Casual",
         "ratings": 4.4
     },
     {
-        "name": "Airstream – Opus Coffee",
+        "name": "Airstream \u2013 Opus Coffee",
         "cuisine": "Coffee",
         "location": "403 SW4th Ave, Gainesville",
         "distance": "",
@@ -97,17 +109,21 @@ restaurant_data = [
         "location": "15 SW 2nd St, Gainesville",
         "distance": "",
         "price_range": "$$",
-        "dietary_options": ["Vegetarian"],
+        "dietary_options": [
+            "Vegetarian"
+        ],
         "dress_code": "Casual",
         "ratings": 4.3
     },
     {
-        "name": "Amelia’s Italian Cuisine",
+        "name": "Amelia\u2019s Italian Cuisine",
         "cuisine": "Italian",
         "location": "235 S Main St, Suite 107, Gainesville",
         "distance": "",
         "price_range": "$$",
-        "dietary_options": ["Vegetarian"],
+        "dietary_options": [
+            "Vegetarian"
+        ],
         "dress_code": "Dressy Casual",
         "ratings": 4.2
     },
@@ -117,7 +133,9 @@ restaurant_data = [
         "location": "4113 NW 16th Blvd, Gainesville",
         "distance": "",
         "price_range": "$",
-        "dietary_options": ["Vegetarian"],
+        "dietary_options": [
+            "Vegetarian"
+        ],
         "dress_code": "Casual",
         "ratings": 4.5
     },
@@ -127,7 +145,9 @@ restaurant_data = [
         "location": "4113 NW 16th Blvd, Gainesville",
         "distance": "",
         "price_range": "$",
-        "dietary_options": ["Vegetarian"],
+        "dietary_options": [
+            "Vegetarian"
+        ],
         "dress_code": "Casual",
         "ratings": 4.5
     },
@@ -137,58 +157,82 @@ restaurant_data = [
         "location": "4113 NW 16th Blvd, Gainesville",
         "distance": "",
         "price_range": "$",
-        "dietary_options": ["Vegetarian"],
+        "dietary_options": [
+            "Vegetarian"
+        ],
         "dress_code": "Casual",
         "ratings": 4.5
     },
     {
         "name": "Bahama Breeze",
-        "cuisine": "Caribbean",
+        "cuisine": "Bagel",
         "location": "4113 NW 16th Blvd, Gainesville",
         "distance": "",
         "price_range": "$",
-        "dietary_options": ["Vegetarian"],
+        "dietary_options": [
+            "Vegetarian"
+        ],
         "dress_code": "Casual",
         "ratings": 4.5
     },
     {
         "name": "Ballyhoo",
-        "cuisine": "Bar & Grill",
+        "cuisine": "Bagel",
         "location": "4113 NW 16th Blvd, Gainesville",
         "distance": "",
         "price_range": "$",
-        "dietary_options": ["Vegetarian"],
+        "dietary_options": [
+            "Vegetarian"
+        ],
+        "dress_code": "Casual",
+        "ratings": 4.5
+    },
+    {
+        "name": "Bahama Breeze",
+        "cuisine": "Bagel",
+        "location": "4113 NW 16th Blvd, Gainesville",
+        "distance": "",
+        "price_range": "$",
+        "dietary_options": [
+            "Vegetarian"
+        ],
         "dress_code": "Casual",
         "ratings": 4.5
     },
     {
         "name": "Blackadder Brewing",
-        "cuisine": "Brewery",
+        "cuisine": "Bagel",
         "location": "4113 NW 16th Blvd, Gainesville",
         "distance": "",
         "price_range": "$",
-        "dietary_options": ["Vegetarian"],
-        "dress_code": "Casual",
-        "ratings": 4.5
-    },{
-        "name": "Blue Gill Quality Foods",
-        "cuisine": "Southern",
-        "location": "4113 NW 16th Blvd, Gainesville",
-        "distance": "",
-        "price_range": "$",
-        "dietary_options": ["Vegetarian"],
+        "dietary_options": [
+            "Vegetarian"
+        ],
         "dress_code": "Casual",
         "ratings": 4.5
     },
-    
-    
+    {
+        "name": "Blue Gill Quality Foods",
+        "cuisine": "Bagel",
+        "location": "4113 NW 16th Blvd, Gainesville",
+        "distance": "",
+        "price_range": "$",
+        "dietary_options": [
+            "Vegetarian"
+        ],
+        "dress_code": "Casual",
+        "ratings": 4.5
+    },
+    {
+        "name": "    ",
+        "cuisine": "Bagel",
+        "location": "4113 NW 16th Blvd, Gainesville",
+        "distance": "",
+        "price_range": "$",
+        "dietary_options": [
+            "Vegetarian"
+        ],
+        "dress_code": "Casual",
+        "ratings": 4.5
+    }
 ]
-
-# Specify the file path where you want to save the JSON file
-file_path = 'restaurants.json'
-
-# Write restaurant data to JSON file
-with open(file_path, 'w') as json_file:
-    json.dump(restaurant_data, json_file, indent=4)
-
-print(f"JSON data has been saved to {file_path}")
