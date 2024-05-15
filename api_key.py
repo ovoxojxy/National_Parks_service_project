@@ -1,2 +1,0 @@
-key = 'Hwkz4brxou2e2Va9l5whN8MiJKZRo4OqRwEeO1WuJI68gwlCew'
-google_key = 'AIzaSyCbROrK8twIMhOUmxILyRzhrBjrsQJhoLA'
