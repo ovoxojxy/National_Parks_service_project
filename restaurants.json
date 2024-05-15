@@ -2,237 +2,285 @@
     {
         "name": "16th Avenue Diner",
         "cuisine": "American",
-        "location": "207 NE 16th Ave, Gainesville",
-        "price_range": "$",
-        "dietary_options": [],
+        "address": "207 NE 16th Ave, Gainesville",
+        "price": 12.5,
+        "diet": [],
         "dress_code": "Casual",
-        "ratings": 4.5
+        "ratings": 4.5,
+        "location": [
+            29.666944,
+            82.321389
+        ]
     },
     {
         "name": "4 Rivers Smokehouse \u2013 Gainesville",
         "cuisine": "Barbecue",
-        "location": "3262 sw 35th blvd, Gainesville",
+        "address": "3262 sw 35th blvd, Gainesville",
         "distance": "",
-        "price_range": "$$",
-        "dietary_options": [
+        "price": 19,
+        "diet": [
             "Vegan",
             "Vegetarian"
         ],
         "dress_code": "Casual Dress",
-        "ratings": 4.2
+        "ratings": 4.2,
+        "location": [
+            29.623889,
+            82.3775
+        ]
     },
     {
         "name": "43rd St Deli & Breakfast \u2013 South",
         "cuisine": "American",
-        "location": "3483 SW Williston Rd., Gainesville",
+        "address": "3483 SW Williston Rd., Gainesville",
         "distance": "",
-        "price_range": "$",
-        "dietary_options": [
+        "price": 15,
+        "diet": [
             "Vegetarian"
         ],
         "dress_code": "Casual",
-        "ratings": 4.5
+        "ratings": 4.5,
+        "location": [
+            29.600556,
+            82.374167
+        ]
     },
     {
         "name": "43rd St Deli & Breakfast \u2013 West",
         "cuisine": "American",
-        "location": "4410 NW 25th Pl, Gainesville",
+        "address": "4410 NW 25th Pl, Gainesville",
         "distance": "",
-        "price_range": "$",
-        "dietary_options": [
+        "price": 15,
+        "diet": [
             "Vegetarian"
         ],
         "dress_code": "Casual",
-        "ratings": 4.5
+        "ratings": 4.5,
+        "location": [
+            29.676389,
+            82.390278
+        ]
     },
     {
         "name": "4th Ave Food Park",
         "cuisine": "Various",
-        "location": "409 SW 4th Ave, Gainesville",
+        "address": "409 SW 4th Ave, Gainesville",
         "distance": "",
-        "price_range": "$",
-        "dietary_options": [
+        "price": 14,
+        "diet": [
             "Vegetarian"
         ],
         "dress_code": "Casual",
-        "ratings": 4.7
+        "ratings": 4.7,
+        "location": [
+            29.647778,
+            82.328333
+        ]
     },
     {
         "name": "A\u2019xin Mahzu Sushi & Grill",
         "cuisine": "Sushi",
-        "location": "5150 SW 34th St, Gainesville",
+        "address": "5150 SW 34th St, Gainesville",
         "distance": "",
-        "price_range": "$",
-        "dietary_options": [
+        "price": 21,
+        "diet": [
             "Vegetarian"
         ],
         "dress_code": "Casual",
-        "ratings": 4.6
+        "ratings": 4.6,
+        "location": [
+            29.605556,
+            82.3725
+        ]
     },
     {
         "name": "Adam\u2019s Rib Co. North",
         "cuisine": "Barbecue",
-        "location": "2109 NW 13th St, Gainesville",
+        "address": "2109 NW 13th St, Gainesville",
         "distance": "",
-        "price_range": "$",
-        "dietary_options": [
+        "price": 18,
+        "diet": [
             "Vegetarian"
         ],
         "dress_code": "Casual",
-        "ratings": 4.5
+        "ratings": 4.5,
+        "location": [
+            29.6725,
+            82.338611
+        ]
     },
     {
-        "name": "afternoon",
+        "name": "Afternoon",
         "cuisine": "American, Breakfast",
-        "location": "231 NW 10th ave, Gainesville",
+        "address": "231 NW 10th ave, Gainesville",
         "distance": "",
-        "price_range": "$$",
-        "dietary_options": [
+        "price": 18,
+        "diet": [
             "Vegetarian"
         ],
         "dress_code": "Casual",
-        "ratings": 4.4
+        "ratings": 4.4,
+        "location": [
+            29.660833,
+            82.3275
+        ]
     },
     {
         "name": "Airstream \u2013 Opus Coffee",
         "cuisine": "Coffee",
-        "location": "403 SW4th Ave, Gainesville",
+        "address": "403 SW4th Ave, Gainesville",
         "distance": "",
-        "price_range": "$",
-        "dietary_options": [],
+        "price": 5,
+        "diet": [],
         "dress_code": "Casual",
-        "ratings": 4.8
+        "ratings": 4.8,
+        "location": [
+            29.648056,
+            82.329167
+        ]
     },
     {
         "name": "Alpin Bistro",
         "cuisine": "French",
-        "location": "15 SW 2nd St, Gainesville",
+        "address": "15 SW 2nd St, Gainesville",
         "distance": "",
-        "price_range": "$$",
-        "dietary_options": [
+        "price": 14.4,
+        "diet": [
             "Vegetarian"
         ],
         "dress_code": "Casual",
-        "ratings": 4.3
+        "ratings": 4.3,
+        "location": [
+            29.651389,
+            82.326111
+        ]
     },
     {
         "name": "Amelia\u2019s Italian Cuisine",
         "cuisine": "Italian",
-        "location": "235 S Main St, Suite 107, Gainesville",
+        "address": "235 S Main St, Suite 107, Gainesville",
         "distance": "",
-        "price_range": "$$",
-        "dietary_options": [
+        "price": 47,
+        "diet": [
             "Vegetarian"
         ],
         "dress_code": "Dressy Casual",
-        "ratings": 4.2
+        "ratings": 4.2,
+        "location": [
+            29.648889,
+            82.324167
+        ]
     },
     {
         "name": "Bagel Bakery",
         "cuisine": "Bagel",
-        "location": "4113 NW 16th Blvd, Gainesville",
+        "address": "4113 NW 16th Blvd, Gainesville",
         "distance": "",
-        "price_range": "$",
-        "dietary_options": [
+        "price": 5,
+        "diet": [
             "Vegetarian"
         ],
         "dress_code": "Casual",
-        "ratings": 4.5
+        "ratings": 4.5,
+        "location": [
+            29.671944,
+            82.386667
+        ]
     },
     {
         "name": "Bageland Bagels",
         "cuisine": "Bagel",
-        "location": "4113 NW 16th Blvd, Gainesville",
+        "address": "4113 NW 16th Blvd, Gainesville",
         "distance": "",
-        "price_range": "$",
-        "dietary_options": [
+        "price": 10,
+        "diet": [
             "Vegetarian"
         ],
         "dress_code": "Casual",
-        "ratings": 4.5
+        "ratings": 4.5,
+        "location": [
+            29.675833,
+            82.386667
+        ]
     },
     {
         "name": "BagelS & Noodles",
         "cuisine": "Bagel",
-        "location": "4113 NW 16th Blvd, Gainesville",
+        "address": "4113 NW 16th Blvd, Gainesville",
         "distance": "",
-        "price_range": "$",
-        "dietary_options": [
+        "price": 13,
+        "diet": [
             "Vegetarian"
         ],
         "dress_code": "Casual",
-        "ratings": 4.5
+        "ratings": 4.5,
+        "location": [
+            29.652222,
+            82.337778
+        ]
     },
     {
         "name": "Bahama Breeze",
-        "cuisine": "Bagel",
-        "location": "4113 NW 16th Blvd, Gainesville",
+        "cuisine": "Caribbean",
+        "address": "4113 NW 16th Blvd, Gainesville",
         "distance": "",
-        "price_range": "$",
-        "dietary_options": [
+        "price": 20,
+        "diet": [
             "Vegetarian"
         ],
         "dress_code": "Casual",
-        "ratings": 4.5
+        "ratings": 4.5,
+        "location": [
+            29.626944,
+            82.383889
+        ]
     },
     {
         "name": "Ballyhoo",
-        "cuisine": "Bagel",
-        "location": "4113 NW 16th Blvd, Gainesville",
+        "cuisine": "Bar & Grill",
+        "address": "4113 NW 16th Blvd, Gainesville",
         "distance": "",
-        "price_range": "$",
-        "dietary_options": [
+        "price": 23,
+        "diet": [
             "Vegetarian"
         ],
         "dress_code": "Casual",
-        "ratings": 4.5
-    },
-    {
-        "name": "Bahama Breeze",
-        "cuisine": "Bagel",
-        "location": "4113 NW 16th Blvd, Gainesville",
-        "distance": "",
-        "price_range": "$",
-        "dietary_options": [
-            "Vegetarian"
-        ],
-        "dress_code": "Casual",
-        "ratings": 4.5
+        "ratings": 4.5,
+        "location": [
+            29.652222,
+            82.379444
+        ]
     },
     {
         "name": "Blackadder Brewing",
-        "cuisine": "Bagel",
-        "location": "4113 NW 16th Blvd, Gainesville",
+        "cuisine": "Brewery",
+        "address": "4113 NW 16th Blvd, Gainesville",
         "distance": "",
-        "price_range": "$",
-        "dietary_options": [
+        "price": 0,
+        "diet": [
             "Vegetarian"
         ],
         "dress_code": "Casual",
-        "ratings": 4.5
+        "ratings": 4.5,
+        "location": [
+            29.658056,
+            82.406667
+        ]
     },
     {
         "name": "Blue Gill Quality Foods",
-        "cuisine": "Bagel",
-        "location": "4113 NW 16th Blvd, Gainesville",
+        "cuisine": "Southern",
+        "address": "4113 NW 16th Blvd, Gainesville",
         "distance": "",
-        "price_range": "$",
-        "dietary_options": [
+        "price": 35,
+        "diet": [
             "Vegetarian"
         ],
         "dress_code": "Casual",
-        "ratings": 4.5
-    },
-    {
-        "name": "    ",
-        "cuisine": "Bagel",
-        "location": "4113 NW 16th Blvd, Gainesville",
-        "distance": "",
-        "price_range": "$",
-        "dietary_options": [
-            "Vegetarian"
-        ],
-        "dress_code": "Casual",
-        "ratings": 4.5
+        "ratings": 4.5,
+        "location": [
+            29.638056,
+            82.339167
+        ]
     }
 ]

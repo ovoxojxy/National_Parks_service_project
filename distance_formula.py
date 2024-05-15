@@ -1,6 +1,6 @@
 import math
 
-def haversine_distance(lat1, lon1, lat2, lon2):
+def distance(lat1, lon1, lat2, lon2):
     R = 6371.0
 
     lat1_rad = math.radians(lat1)
