@@ -150,5 +150,20 @@ def main():
         merge_sort_distance(restaurant_distances)
         return_dist(restaurant_distances)
 
+
+        
+    #             restaurant_locations[result] = dictionary['location']
+    
+    
+    # for restaurant in restaurant_locations:
+    #     restaurant_distances[restaurant] = distance(user_location[0], user_location[1], restaurant_locations[restaurant][0], restaurant_locations[restaurant][1])
+    # print(restaurant_distances)
+    
+
+    # if user_sort_pref == "name":
+    #     print(results)
+    # elif user_sort_pref == "price":
+    #     print()
+    #elif user_sort_prefcue
 if __name__ == '__main__':
     main()
