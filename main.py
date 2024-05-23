@@ -7,6 +7,7 @@ from api_key import key
 from api_key import google_key
 from merge_sort_restaurants import merge_restaurants, merge_sort_restaurants, return_restaurants
 from distance_sort import *
+from welcome_page import *
 
 # loads json file with local gainesville restaurants
 def load_restaurants(filename):
@@ -115,6 +116,9 @@ def main():
     user_location = get_location()
     result_dictionary_list = []
 
+    print_welcome()
+    show_intructions()
+    
     user_cuisine = str(input(
         "\nWhat cuisine of food would you like to eat?\n ")).lower()
     
@@ -122,7 +126,6 @@ def main():
         "\nHow would you like your results sorted?:\nName, Distance, Ratings, or Price\n")).lower()
 
     results = match_cuisines(restaurant_data,user_cuisine)
-    # print(results)
 
     for result in results:
         for dictionary in restaurant_data:
@@ -133,8 +136,7 @@ def main():
         dist_from_rest = distance(user_location[0], user_location[1], restaurant['location'][0], restaurant['location'][1])
         restaurant_distances.append([restaurant['name'], dist_from_rest])
 
-    # print(result_dictionary_list)
-    # print(restaurant_distances)
+
     if user_sort_pref == 'name':
         for dictionary in result_dictionary_list:
             print(dictionary['name'])
@@ -148,20 +150,5 @@ def main():
         merge_sort_distance(restaurant_distances)
         return_dist(restaurant_distances)
 
-
-        
-    #             restaurant_locations[result] = dictionary['location']
-    
-    
-    # for restaurant in restaurant_locations:
-    #     restaurant_distances[restaurant] = distance(user_location[0], user_location[1], restaurant_locations[restaurant][0], restaurant_locations[restaurant][1])
-    # print(restaurant_distances)
-    
-
-    # if user_sort_pref == "name":
-    #     print(results)
-    # elif user_sort_pref == "price":
-    #     print()
-    #elif user_sort_prefcue
 if __name__ == '__main__':
     main()
